@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'a' => [
+    '.a' => [
         'name' => 'Welcome',
         'route_segment' => 'welcome',
         'route' => 'welcome.main',
         'icon' => 'fa-wrench',
-        'label' => 'Принять условия альянса',
+        'label' => 'Добро пожаловать!',
     ],
 ];
