@@ -1,0 +1,29 @@
+{
+  "name": "eve-drg/seat-welcome",
+  "license": "MIT License",
+  "type": "seat-plugin",
+  "authors": [
+    {
+      "name": "Xenon007",
+      "email": "vv@dragonempire.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DRG\\Welcome\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "DRG\\Welcome\\WelcomeServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "eveseat/services": "^3.0",
+    "eveseat/eveapi": "^3.0",
+    "eveseat/web": "^3.0",
+    "eveseat/eseye": "^1.0"
+  }
+}
