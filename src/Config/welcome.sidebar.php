@@ -5,7 +5,7 @@ return [
         'name' => 'Welcome',
         'route_segment' => 'welcome',
         'route' => 'welcome.main',
-        'icon' => 'fa-wrench',
-        'label' => 'Добро пожаловать!',
+        'icon' => 'fa-star',
+        'label' => 'Правила',
     ],
 ];

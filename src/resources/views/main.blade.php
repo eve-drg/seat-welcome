@@ -1,13 +1,13 @@
 @extends('web::layouts.grids.8-4')
 
-@section('title', 'Добро пожаловать! Правила Альянса')
-@section('page_header', __('Добро пожаловать! Правила Альянса'))
+@section('title', 'Правила Альянса')
+@section('page_header', __('Правила Альянса'))
 
 @section('left')
     <div class="row">
         <div class="col-md-12 col-sm-6 col-xs-12">
             <div class="info-box">
-                <span class="info-box-icon bg-aqua"><i class="fa fa-bug"></i></span>
+                <span class="info-box-icon bg-aqua"><i class="fa fa-star"></i></span>
                 <div class="info-box-content">
                     <span class="info-box-text">Номер вашего телефона для экстренной связи</span>
                     @if ($tel === null)
@@ -23,14 +23,14 @@
                     @endif
                 </div>
             </div>
-            @if ($language !== 'en')
+            @if ($language !== 'ru')
                 <div class="info-box">
                     <span class="info-box-icon bg-maroon"><i class="fa fa-bomb"></i></span>
                     <div class="info-box-content">
                         <span class="info-box-text">Switch language</span>
                         <form action="{{route('welcome.switch-lang')}}" role="form" method="post">
                             {{csrf_field()}}
-                            <input type="hidden" name="lang" value="en">
+                            <input type="hidden" name="lang" value="ru">
                             <input type="submit" class="btn" value="Switch">
                         </form>
                     </div>
