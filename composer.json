@@ -2,7 +2,7 @@
   "name": "eve-drg/seat-welcome",
   "license": "MIT",
   "type": "seat-plugin",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "homepage": "https://github.com/eve-drg/seat-welcome",
   "minimum-stability": "stable",
   "authors": [
