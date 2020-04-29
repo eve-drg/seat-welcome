@@ -7,13 +7,13 @@
     <div class="row">
         <div class="col-md-12 col-sm-6 col-xs-12">
             <div class="info-box">
-                <span class="info-box-icon bg-aqua"><i class="fa fa-star"></i></span>
+                <span class="info-box-icon bg-aqua"><img src="https://images.evetech.net/alliances/99004734/logo?size=128" alt="DRG LOGO"></span>
                 <div class="info-box-content">
-                    <span class="info-box-text">Номер вашего телефона для экстренной связи</span>
+                    <span class="info-box-text">Добро подаловать!</span>
                     @if ($tel === null)
                         <form action="{{route('welcome.bindtel')}}" role="form" method="post">
                             {{csrf_field()}}
-                            <label for="killMailUrl" class="control-label">Вы не ввели номер телефона. Введите в формате +7CCCZZZYYXX
+                            <label for="tel" class="control-label">Вы не ввели номер телефона. Введите в формате +7CCCZZZYYXX
                                 <input type="text" class="form-control" id="tel" name="tel" required />
                             </label>
                             <input type="submit" class="btn" value="Binding">
@@ -27,11 +27,11 @@
                 <div class="info-box">
                     <span class="info-box-icon bg-maroon"><i class="fa fa-bomb"></i></span>
                     <div class="info-box-content">
-                        <span class="info-box-text">Switch language</span>
+                        <span class="info-box-text">Сменить язык</span>
                         <form action="{{route('welcome.switch-lang')}}" role="form" method="post">
                             {{csrf_field()}}
                             <input type="hidden" name="lang" value="ru">
-                            <input type="submit" class="btn" value="Switch">
+                            <input type="submit" class="btn" value="Установить русский">
                         </form>
                     </div>
                 </div>
