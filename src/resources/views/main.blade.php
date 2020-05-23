@@ -7,9 +7,9 @@
     <div class="row">
         <div class="col-md-12 col-sm-6 col-xs-12">
             <div class="info-box">
-                <span class="info-box-icon bg-aqua"><img src="https://images.evetech.net/alliances/99004734/logo?size=128" alt="DRG LOGO"></span>
+                <span class="info-box-icon bg-red"><img src="https://images.evetech.net/alliances/99004734/logo?size=128" alt="DRG LOGO" width="80%" height="80%"></span>
                 <div class="info-box-content">
-                    <span class="info-box-text">Добро подаловать!</span>
+                    <span class="info-box-text">Добро пожаловать!</span>
                     @if ($tel === null)
                         <form action="{{route('welcome.bindtel')}}" role="form" method="post">
                             {{csrf_field()}}
