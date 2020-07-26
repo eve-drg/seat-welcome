@@ -36,6 +36,20 @@
                     </div>
                 </div>
             @endif
+
+
+            <div class="info-box">
+                <span class="info-box-icon bg-yellow"><i class="fa fa-microphone"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-text">Регистрация TS3</span>
+                        Нажмите на кнопку ниже
+                        <a href="" class="btn">Зарегистрироваться</a><br />
+                        В новой вкладке скопируйте одноразовый хэш, подключитесь к ТС с ником-хешем и нажмите кнопку Confirm<br />
+                        После получения ролей, переименуйтесь точно так же, как и имя персонажа в игре<br />
+                </div>
+            </div>
+
+
         </div>
     </div>
 @endsection
