@@ -42,8 +42,7 @@
                 <span class="info-box-icon bg-yellow"><i class="fa fa-microphone"></i></span>
                 <div class="info-box-content">
                     <span class="info-box-text">Регистрация TS3</span>
-                        Нажмите на кнопку ниже
-                        <a href="" class="btn">Зарегистрироваться</a><br />
+                        Нажмите на кнопку ниже <strong><a href="http://seat.dragonempire.ru/seat-connector/registration/teamspeak" >тут</a></strong><br />
                         В новой вкладке скопируйте одноразовый хэш, подключитесь к ТС с ником-хешем и нажмите кнопку Confirm<br />
                         После получения ролей, переименуйтесь точно так же, как и имя персонажа в игре<br />
                 </div>
